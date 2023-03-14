@@ -1,0 +1,526 @@
+
+/**************************/
+/*  Main Navigation SECTION */
+/**************************/
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem 6.4rem;
+    height: 7rem;
+  }
+
+  .desc.nav-desc {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.2rem;
+
+    font-size: 1.8rem;
+    color: #333;
+  }
+
+
+
+
+
+/**************************/
+/*  Hero SECTION */
+/**************************/
+
+.section-hero {
+    max-width: 100%;
+    min-height: calc(100vh - 7rem);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url(../img/Hotel-Front/hero.webp);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.hero-text-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heading-primary {
+    text-align: center;
+    /* font-family: 'Italiana', serif; */
+    font-family: 'Shantell Sans', cursive;
+    font-size: 6.2rem;
+    font-weight: 400;
+    line-height: 1.05;
+    color: #fff;
+}
+
+.hr-line {
+    display: inline-block;
+    width: 5%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 0.5px solid #fff;
+
+    color: #fff;
+}
+
+  .hero-desc.subheading {
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+
+
+
+  .star-icon {
+    fill: #FC947E;
+    stroke: #FC947E;
+  }
+
+  .reviews {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    position: absolute;
+    bottom: 10%;
+    left: 6.4rem;
+  }
+
+  .riviews .sm-text {
+    margin-left: 1.2rem;
+  }
+
+
+
+  .icon-map,
+  .icon-phone {
+    width: 2.4rem;
+    height: 2.4rem;
+    stroke: #FC947E;
+  }
+
+  .hero-contact {
+    position: absolute;
+    bottom: 10%;
+    right: 6.4rem;
+
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .map-link,
+  .phone {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+
+
+
+/**************************/
+/*  Hero SECTION */
+/**************************/
+
+  .about-img-box {
+    width: 100%;
+  }
+
+  .about-img {
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .btn-about {
+    background-color: #FC947E;
+    color: #fff;
+  }
+
+  .about {
+    align-items: center;
+    /* gap: 9.6rem; */
+  }
+
+  .about-heading.heading-secondary {
+    margin-bottom: 3.2rem;
+  }
+
+
+
+
+
+/**************************/
+/*  Featured Amenities SECTION */
+/**************************/
+
+/* .amenities {
+  height: 100vh;  
+} */
+
+.amenities {
+  margin-bottom: 0;
+}
+
+.amenities-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6.4rem;
+}
+
+.amenity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+  ion-icon {
+    width: 3rem;
+    height: 3rem;
+    color: #FC947E;
+  }
+
+
+
+
+
+
+
+
+/**************************/
+/*  Rooms & Suits SECTION */
+/**************************/
+
+.rooms-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+.room-img-box {
+  width: 100%;
+  height: 30rem;
+}
+
+.room-picture {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.section-rooms .heading-tertiary {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.room-info {
+  background-color: #efd8d3;
+}
+
+.room-text-box .a-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.room-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+}
+
+
+/**************************/
+/*  Primium Service SECTION */
+/**************************/
+
+.premium-services-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
+}
+
+.p-service-img-box {
+  width: 100%;
+  height: 30rem;
+}
+
+.p-service-img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.p-service-text-box .heading-tertiary {
+  margin-top: 2.4rem;
+  padding-left: 1.2rem;
+}
+
+.p-service-text-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-service-info {
+  border: 1px solid #FC947E;
+}
+
+.p-service-info .heading-tertiary {
+  font-size: 1.8rem;
+}
+
+
+
+.p-service-text-box .btn--full {
+  margin-right: 1.2rem;
+}
+
+/**************************/
+/*  Hotel Info SECTION */
+/**************************/
+
+.hotel-info-bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Event_&_Wedding/cover-photo.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.hotel-info {
+  max-width: 30%;
+  background-color: #fff;
+  margin-left: 12.8rem;
+  /* height: 90vh; */
+
+  padding: 3.2rem;
+  margin-bottom: 0;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.info-box .desc {
+  margin: 0;
+}
+
+.icon-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #FC947E;
+}
+
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+
+.section-cta {
+  /* top / right / bottom / left */
+  /* padding: 9.6rem 0 12.8rem 0; */
+
+  /* top / horizontal / left */
+  padding: 1.8rem 0;
+  /* margin-top: 9.6rem; */
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right bottom, #FC947E, #e38571);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #fff;
+}
+
+.cta .heading-secondary {
+  /* color: #45260a; */
+  color: inherit;
+  margin-bottom: 3.2rem;
+  padding: 0;
+  border: none;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/Event_&_Wedding/cta-cover.webp");
+  background-size: cover;
+  background-position: left;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+/* .cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+} */
+
+
+
+
+
+
+/**************************/
+/*  Footer SECTION */
+/**************************/
+
+.footer {
+  /* padding: 12.8rem 0; */
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+}
+
+.footer-logo {
+  text-decoration: none;
+}
+
+.footer .heading-tertiary {
+  margin-bottom: 0;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: 2.4rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+
+
+
+/**************************/
+/*  Hero SECTION */
+/**************************/
+
+
+
